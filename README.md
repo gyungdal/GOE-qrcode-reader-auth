@@ -16,18 +16,21 @@
 
 ## Depended
 1. PI Camera Enable
+
 	```
 	sudo raspi-config
     ```
 	![camera enable](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/07/1436675616rpicameraenable.png)
 2. zbar-tools
 	If you not install this tool, you should install [zbar-tools](http://packages.ubuntu.com/precise/graphics/zbar-tools).
+
     ```
     sudo apt-get install zbar-tools
     ```
 
 ## Caution
 1. **Network Connect**
+
 ```
 if you disconnect from internet, this code maybe doesn't work...
 ```
